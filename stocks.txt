@@ -1,0 +1,7 @@
+Company Percentage
+bahnhof 30
+bravida 15
+investor 17
+spiltan 17
+avanza 10
+didner 11
