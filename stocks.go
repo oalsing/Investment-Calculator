@@ -26,6 +26,7 @@ func atoi_wrapper(str string) int {
         fmt.Println(err)
         os.Exit(2)
     }
+
     return invest
 }
 
@@ -54,7 +55,7 @@ func read_stocks() []company_investment {
 
 func sort_stocks(stocks []company_investment) []company_investment {
     sort.Slice(stocks, func(i, j int) bool {
-        return stocks[i].Percentage> stocks[j].Percentage
+        return stocks[i].Percentage > stocks[j].Percentage
     })
 
     return stocks
